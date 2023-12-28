@@ -1,0 +1,9 @@
+<p>home-component works!</p>
+
+
+<fieldset *ngFor="let product of products">
+    <legend>product {{product.id}}</legend>
+    <p> product price : {{product.price}} </p>
+    <button (click)="addCart(product)" >  buy </button>
+    <button (click)="GoToProductDetails(product.id)"> Details </button>
+  </fieldset>

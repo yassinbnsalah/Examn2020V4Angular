@@ -1,0 +1,42 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "price": 41,
+      "description": "typicode"
+    },
+    {
+      "id": 2,
+      "name": "tesss",
+      "price": "520",
+      "description": "tessstessstessstesss"
+    },
+    {
+      "id": 3,
+      "name": "appel",
+      "price": "150",
+      "description": "desdesddesdcsd"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "price": 41,
+      "description": "typicode"
+    },
+    {
+      "id": 2,
+      "name": "tesss",
+      "price": "520",
+      "description": "tessstessstessstesss"
+    },
+    {
+      "id": 3,
+      "name": "appel",
+      "price": "150",
+      "description": "desdesddesdcsd"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<h1> Ajouter product </h1>
+<form [formGroup]="fg">
+    Name : <input type="text"
+        formControlName="name">
+    <div *ngIf="fg.get('name')?.errors?.['required']"> Name is required.
+    </div><br>
+    Price : <input type="text" formControlName="price">
+    <span *ngIf="fg.get('price')?.errors?.['pattern']">Pattern Non
+        accepted</span> <br>
+    Description :<input type="text" formControlName="description"> 
+    <div *ngIf="fg.get('description')?.errors?.['required']"> description is required.
+    </div>
+    <span *ngIf="fg.get('description')?.errors?.['minlength']">description Non
+        accepted</span> <br>
+    <input type="submit" value="Save" (click)="onSubmit()"[disabled]="fg.invalid">
+</form>
